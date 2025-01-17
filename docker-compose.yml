@@ -1,9 +1,9 @@
 services:
-  node-exocore:
+  node-warden:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: exocore-node
+    container_name: warden-node
     ports:
       - "26656:26656"
       - "26660:26660"
