@@ -21,7 +21,7 @@ ENV WARDEN_PORT="18"
 
 RUN rm -rf bin && \
 mkdir bin && cd bin && \
-wget https://github.com/warden-protocol/wardenprotocol/releases/download/v0.5.2/wardend_Linux_x86_64.zip && \
+wget https://github.com/warden-protocol/wardenprotocol/releases/download/v0.5.4/wardend_Linux_x86_64.zip && \
 unzip wardend_Linux_x86_64.zip && \
 chmod +x wardend && \
 mv $HOME/bin/wardend $HOME/go/bin && \
